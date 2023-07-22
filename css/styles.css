@@ -1,3 +1,58 @@
-p {
-    border:3px solid red;
+.navbar{
+   height: 70px;
+}
+
+.navbar-brand{
+    font-family: 'Cinzel', serif;
+    margin-left: 20px;
+}
+
+.navbar-nav{
+   margin-right: 30px;
+   font-family: 'Playfair Display', serif;
+}
+
+
+.ayrac{
+    border-top: 3px solid rgb(4, 4, 121);
+    margin: 5px auto;
+    max-width: 200px;
+}
+
+.about-me{
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 30px;
+}
+
+
+.p-2{
+    font-family: 'Quicksand', sans-serif;
+    max-width: 450px;
+    margin: 0 auto;
+    line-height: 2.0; 
+}
+
+.kutu{
+    display: flex;
+    justify-content: center;
+}
+
+.card{
+    margin-right: 30px;
+    transition:all 0.3s;
+}
+
+.card:hover{
+    transform: scale(1.15);
+}
+
+.card-title{
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    margin-top: 2%;
+}
+
+.card-text{
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
 }
