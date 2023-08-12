@@ -1,58 +1,63 @@
 .navbar{
-   height: 70px;
+    height: 100px;
+    background-color: #F2BED1;
+ }
+
+.navbar-brand {
+  font-family: "Cinzel", serif;
+  margin-left: 50px;
+  font-size: 24px;
 }
 
-.navbar-brand{
-    font-family: 'Cinzel', serif;
-    margin-left: 20px;
+.navbar-nav {
+  margin-right: 60px;
+  font-family: "Cinzel", serif;
 }
 
-.navbar-nav{
-   margin-right: 30px;
-   font-family: 'Playfair Display', serif;
+.ayrac {
+  border-top: 2px solid rgb(4, 4, 121);
+  margin: 5px auto;
+  max-width: 350px;
 }
 
-
-.ayrac{
-    border-top: 3px solid rgb(4, 4, 121);
-    margin: 5px auto;
-    max-width: 200px;
+.about-me {
+ font-family: 'Old Standard TT', serif;
+  margin-bottom: 30px;
 }
 
-.about-me{
-    font-family: 'Playfair Display', serif;
-    margin-bottom: 30px;
+.p-2 {
+  font-family: "Quicksand", sans-serif;
+  max-width: 450px;
+  margin: 0 auto;
+  line-height: 2;
 }
 
-
-.p-2{
-    font-family: 'Quicksand', sans-serif;
-    max-width: 450px;
-    margin: 0 auto;
-    line-height: 2.0; 
+.kutu {
+  display: flex;
+  justify-content: center;
 }
 
-.kutu{
-    display: flex;
-    justify-content: center;
+.card {
+  margin-right: 30px;
+  transition: all 0.3s;
 }
 
-.card{
-    margin-right: 30px;
-    transition:all 0.3s;
+.card:hover {
+  transform: scale(1.15);
 }
 
-.card:hover{
-    transform: scale(1.15);
+.card-title {
+  text-align: center;
+  font-family: 'Old Standard TT', serif;
+  margin-top: 6%;
 }
 
-.card-title{
-    text-align: center;
-    font-family: 'Playfair Display', serif;
-    margin-top: 2%;
+.card-text {
+  text-align: center;
+  font-family: "Quicksand", sans-serif;
 }
 
-.card-text{
-    text-align: center;
-    font-family: 'Quicksand', sans-serif;
+.card a{
+  color: black;
+  text-decoration: none;
 }

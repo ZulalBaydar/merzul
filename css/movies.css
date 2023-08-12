@@ -1,0 +1,58 @@
+button{
+    margin-top: 20px;
+    margin-left: 30px;
+}
+.navbar{
+    height: 100px;
+ }
+ 
+ .navbar-brand{
+     font-family: 'Cinzel', serif;
+     margin-left: 50px;
+     font-size: 24px;
+ }
+ 
+ .navbar-nav{
+    margin-right: 60px;
+    font-family: 'Cinzel', serif;
+ }
+
+.row {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+ .card {
+    border: none;
+    max-width: 150px; /* Maksimum genişlik ayarı */
+    display: flex;
+    justify-content: center;
+  }
+
+ .card-text {
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+  }
+
+  .card-img-top {
+    max-height: 150px; 
+    object-fit: cover;
+  }
+
+ .month {
+    font-family: 'Charm', cursive;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+ }
+
+ .ayrac2 {
+    border: none;
+    height: 2px;
+    background-color: #F2BED1;
+    margin: 20px 0;
+ }
